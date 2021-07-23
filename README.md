@@ -1,1 +1,3 @@
-# OfficeHours
+This program simulates an office hour for a professor. It utilizes multi-threading to help the professor schedule their office hours, during which different students from different classes try to get into the office. 
+
+The program expects as an argument the name of an input file which controls the simulation. The input file specifies the arrival of students and the amount of time students spend in the professor’s office. More precisely, the file has one line for each student containing two numbers. Thefirst number is the time (in seconds) between the arrival of this student and the previous student. The second number is the number of seconds the students needs to spend with the professor. 
